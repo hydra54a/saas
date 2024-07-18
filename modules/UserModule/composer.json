@@ -1,0 +1,14 @@
+{
+    "name": "vendor/usermodule",
+    "description": "This module contains the functionality for the user module",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Vendor\\UserModule\\":"src/"
+        }
+    },
+    "require": {
+        "php": ">=7.3",
+        "illuminate/support": "^8.0|^9.0|^10.0"
+    }
+}

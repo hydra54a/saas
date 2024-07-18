@@ -1,0 +1,8 @@
+to migrate to specific folder add path
+php artisan make:migration create_users_table --path=modules/UserModule/Database/Migrations
+
+run migration
+php artisan migrate --path=modules/UserModule/Database/Migrations
+
+seeder should be on the root database directory
+php artisan make:seeder UsersTableSeeder
